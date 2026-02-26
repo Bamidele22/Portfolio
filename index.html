@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ayodeji Bamidele — DevOps Engineer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
   <style>
     :root {
       --white: #ffffff;
@@ -18,7 +18,7 @@
       --green: #2a7a4f;
       --green-light: #edf7f2;
       --font-display: 'Plus Jakarta Sans', sans-serif;
-      --font-mono: 'DM Mono', monospace;
+      --font-mono: 'Plus Jakarta Sans', sans-serif;
       --font-body: 'Plus Jakarta Sans', sans-serif;
       --max: 760px;
       --gap: 120px;
@@ -65,8 +65,9 @@
     }
 
     .nav-logo {
-      font-family: var(--font-mono);
-      font-size: 13px;
+      font-family: var(--font-display);
+      font-size: 14px;
+      font-weight: 700;
       color: var(--ink);
       text-decoration: none;
     }
@@ -81,11 +82,12 @@
     }
 
     .nav-links a {
-      font-family: var(--font-mono);
-      font-size: 12px;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 600;
       color: var(--mid);
       text-decoration: none;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.02em;
       text-transform: uppercase;
       transition: color 0.15s;
     }
@@ -100,9 +102,10 @@
     }
 
     .hero-eyebrow {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      letter-spacing: 0.16em;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--accent);
       margin-bottom: 24px;
@@ -126,7 +129,7 @@
 
     .hero-tagline {
       font-size: 18px;
-      font-weight: 300;
+      font-weight: 400;
       color: var(--mid);
       max-width: 480px;
       line-height: 1.7;
@@ -148,8 +151,9 @@
       display: flex;
       align-items: center;
       gap: 7px;
-      font-family: var(--font-mono);
-      font-size: 12px;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 500;
       color: var(--mid);
     }
 
@@ -165,7 +169,7 @@
       padding: 12px 24px;
       border-radius: 8px;
       font-size: 14px;
-      font-weight: 600;
+      font-weight: 700;
       transition: opacity 0.15s, transform 0.15s;
       margin-top: 40px;
       opacity: 0;
@@ -176,11 +180,12 @@
 
     /* SECTION HEADER */
     .section-label {
-      font-family: var(--font-mono);
-      font-size: 10px;
-      letter-spacing: 0.18em;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: var(--faint);
+      color: var(--ink);
       margin-bottom: 48px;
     }
 
@@ -194,9 +199,10 @@
     }
 
     .experience-period {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      color: var(--faint);
+      font-family: var(--font-display);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--ink);
       line-height: 1.6;
       padding-top: 4px;
     }
@@ -211,11 +217,11 @@
     }
 
     .experience-company {
-      font-family: var(--font-mono);
-      font-size: 12px;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 600;
       color: var(--accent);
       margin-bottom: 16px;
-      letter-spacing: 0.02em;
     }
 
     .experience-points { list-style: none; display: flex; flex-direction: column; gap: 10px; }
@@ -241,19 +247,21 @@
     .skills-grid { display: flex; flex-direction: column; gap: 32px; }
 
     .skill-group-label {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      letter-spacing: 0.1em;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
       text-transform: uppercase;
-      color: var(--faint);
+      color: var(--ink);
       margin-bottom: 12px;
     }
 
     .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; }
 
     .skill-tag {
-      font-family: var(--font-mono);
-      font-size: 12px;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 600;
       background: var(--off);
       color: var(--ink);
       border: 1px solid var(--border);
@@ -309,8 +317,9 @@
     }
 
     .project-tag {
-      font-family: var(--font-mono);
-      font-size: 11px;
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 600;
       background: var(--green-light);
       color: var(--green);
       border-radius: 100px;
@@ -323,8 +332,9 @@
       display: inline-flex;
       align-items: center;
       gap: 5px;
-      font-family: var(--font-mono); 
-      font-size: 11px;
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 600;
       color: var(--accent);
       text-decoration: none;
       margin-top: 10px;
@@ -363,9 +373,9 @@
       font-size: 16px;
     }
 
-    .cert-name { font-size: 14px; font-weight: 600; color: var(--ink); margin-bottom: 2px; }
-    .cert-issuer { font-family: var(--font-mono); font-size: 11px; color: var(--mid); }
-    .cert-date { font-family: var(--font-mono); font-size: 11px; color: var(--faint); white-space: nowrap; }
+    .cert-name { font-size: 15px; font-weight: 700; color: var(--ink); margin-bottom: 2px; }
+    .cert-issuer { font-family: var(--font-display); font-size: 12px; font-weight: 500; color: var(--mid); }
+    .cert-date { font-family: var(--font-display); font-size: 12px; font-weight: 600; color: var(--ink); white-space: nowrap; }
 
     /* CONTACT */
     .contact-wrapper { text-align: center; padding: 80px 0; }
@@ -382,7 +392,7 @@
 
     .contact-heading em { font-style: normal; color: var(--accent); }
 
-    .contact-sub { font-size: 15px; color: var(--mid); font-weight: 400; margin-bottom: 48px; }
+    .contact-sub { font-size: 15px; font-weight: 500; color: var(--mid); margin-bottom: 48px; }
 
     .contact-links {
       display: flex;
@@ -399,8 +409,9 @@
       padding: 12px 20px;
       border: 1.5px solid var(--border);
       border-radius: 10px;
-      font-family: var(--font-mono);
-      font-size: 12px;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 600;
       color: var(--ink);
       text-decoration: none;
       transition: border-color 0.15s, background 0.15s, color 0.15s;
@@ -421,14 +432,15 @@
       justify-content: space-between;
     }
 
-    .footer-copy { font-family: var(--font-mono); font-size: 11px; color: var(--faint); }
+    .footer-copy { font-family: var(--font-display); font-size: 12px; font-weight: 500; color: var(--mid); }
 
     .footer-status {
       display: flex;
       align-items: center;
       gap: 7px;
-      font-family: var(--font-mono);
-      font-size: 11px;
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 600;
       color: var(--green);
     }
 
@@ -727,9 +739,3 @@
       <div class="footer-status">
         <div class="status-dot"></div>
         Available for opportunities
-      </div>
-    </div>
-  </footer>
-
-</body>
-</html>
